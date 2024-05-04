@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio</title>
+</head>
+<body>
+  <h1>Exercicio de imagem flexivel</h1>
+  <p>Para esse exercico eu usei o app Gimp para redimencionar a imagem em três formatos: <strong>1000x1000px, 700x700px e 300x300px (Grande/media/pequena)</strong>
+    </p>
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens/profile-p.jpeg" type="image/jpeg">
+    <source media="(max-width: 1050px )" srcset="imagens/profile-m.jpeg" type="image/jpeg">
+    <img src="imagens/profile-g1.jpeg" alt="">
+  </picture>
+</body>
+</html>
