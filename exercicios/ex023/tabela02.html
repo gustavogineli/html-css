@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>teste</title>
+  <style>
+
+    table {
+      width: 400px;
+      border-collapse: collapse;
+    }
+
+    td {
+      border: 1px solid black;
+
+    }
+
+    .titulo > td {
+     font-weight: bold;
+     background-color: gray;
+     border: 2px solid black;
+     
+    }
+
+    td.vermelho {
+      background-color: red;
+    }
+
+    td#linha {
+      border-left: 2px solid black;
+    }
+
+
+  </style>
+</head>
+<body>
+  <h1>Tabela do Hotel Gineli</h1>
+
+  <table>
+    <tr class="titulo">
+      <td>Lucro</td>
+      <td>Despesas</td>
+    </tr>
+
+    <tr>
+      <td>R$700,00</td>
+      <td>R$80,00</td>
+      <td id="linha">R$90,00</td>
+      <td>R$320,00</td>
+    </tr>
+
+    <tr>
+      <td>R$200,00</td>
+      <td>R$21,00</td>
+      <td id="linha">R$15,17</td>
+      <td>R$81,00</td>
+    </tr>
+
+    <tr>
+      <td>R$45,00</td>
+      <td>R$120,00</td>
+      <td class="vermelho" id="linha">R$41,37</td>
+      <td>56,37</td>
+    </tr>
+  </table>
+</body>
+</html>
